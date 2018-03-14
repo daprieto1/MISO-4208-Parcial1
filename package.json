@@ -1,0 +1,22 @@
+{
+  "name": "miso-4208-parcial1",
+  "version": "1.0.0",
+  "description": "parcial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daprieto1/MISO-4208-Parcial1.git"
+  },
+  "author": "da.prieto1@uniandes.edu.co",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daprieto1/MISO-4208-Parcial1/issues"
+  },
+  "homepage": "https://github.com/daprieto1/MISO-4208-Parcial1#readme",
+  "dependencies": {
+    "cypress": "^2.1.0"
+  }
+}
