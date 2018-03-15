@@ -91,12 +91,21 @@ AntennaPod is un gestor y reproductor de podcast que te da acceso instantáneo a
 
 ![](assets/ap2.png)
 
+Se automatizaron los siguientes escenarios de pruebas:
+* Adicionar pod desde iTunes
+* Adicionar pod desde Grodder.net
+* Adicionar pod desde fyyd
+
+Dichos escenarios usan SBE (Specification By Example) lo que permitirá a futuro extender estas pruebas para aumentar los casos de prueba automatizados.
+
 **Ejecución de Random Testing sobre AntennaPod usando un monkey con eventos aleatorios**
+
 * Se instalo la apliación a través de adb:
    * adb install C:\Users\JESUSALFONSO\Documents\de.danoeh.antennapod_1060405.apk
 * Comando para la ejecucioón de la prueba:
    * adb shell monkey -p de.danoeh.antennapod -v 10000 -s 200
    * Se le indica el paquete sobre el cual se quiere ejecutar la prueba (de.danoeh.antennapod), la cantidad de eventos aleatorios que se quieren realizar (10000) y una semilla (200) para que se generen los mismos eventos para tratar de reproducir un error en caso de que ocurra
+* Durante la ejecución no logro encontrarse ningún "corner case" o "failue", es decir el usuario no logro percibir nungun error. Se necesita un número de eventos más grande para lograr dañar la aplicación, cambiar la semilla en particular o no dejar los eventos a un monkey aleatorio sino focalizado.
 
 ![](assets/monkeytesting-AntenaPod.gif)
 
