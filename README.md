@@ -1,9 +1,21 @@
 # Estrategia de Pruebas Parcial 1
 
 ## Caracteísticas de las App
-Apliacición "losestudiantes.co" es una palicación web a través de la cual los estudiantes se inscriben y les permite busca y calificra profesores y clases anónimamente.
+
+### Los Estudiantes
+
+Apliacición "losestudiantes.co" es una palicación web a través de la cual los estudiantes de la Universidad de los Andes y la Nacional se inscriben y les permiten busca y calificar a los profesores y sus clases anónimamente, además de eso la aplicación cuenta con la opción de ver estadisticas, formar debates etc. Todo esto con el objetivo de que los estudiantes puedan preparar de la mejor manera sus clases seleccionando mejor a sus profesores.
+
+La aplicación esta desarrollada usando ReactJs y 3D.js y no tiene ninguna restricción para poder ser accedida desde cualquier browser.
+
+![](assets/le1.png)
+
+### AntenaPod
 
 Aplicación "AntenaPod": Apliación desarrollada para dispositivos con S.O. Andorid
+
+AntennaPod is un gestor y reproductor de podcast que te da acceso instantáneo a millones de podcast gratuitos y de pago, desde podcasters independientes a grandes estaciones como la BBC, NPR y CNN. Agrega, importa y exporta las fuentes de manera sencilla usando el listado de iTunes, archivos OPML o las URL de tipo RSS.
+
 ## Contexto
 
 ### Objetivo
@@ -11,11 +23,15 @@ Aplicación "AntenaPod": Apliación desarrollada para dispositivos con S.O. Ando
 * Realizar Pruebas exploratorias sobre la aplicación movil AntenaPod para conocer cuales son sus principales funcionalidades.
 * Realizar Pruebas automatizadas funcionalidades rapidas el flujo completo "comentar profesor" para la aplicación Web de losestudiantes.com 
 * Realizar pruebas aleatorias para tratar de buscar fallos de tipo "corner case" en la aplicación AtenaPod.
+
 ### Presupuesto
 
+* Se cuenta con un equipo de dos ingenieros, cada uno con 2 horas y veinte minutos para realizar esta iteración.
+* Las maquinas personales de cada ingeniero estarán disponibles para la ejecución de la iteración.
 
 ### Niveles y Tipos de Pruebas
-Nivel Sistema
+
+**Nivel Sistema**
 
 Dado que ya se cuenta con las apliaciones desarrolladas realizaremos pruebas a nivel de sistema.
 
