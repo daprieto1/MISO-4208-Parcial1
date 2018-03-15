@@ -70,6 +70,10 @@ En este caso si deja comentar porque el mail es valido.
 
 En ambos casos se puede notar los fallos del formulario cuando los slider de calificación están debajop de 1.5
 
+**Ejecución de pruebas automatizadas sobre Los Estudiantes para el caso de prueba comentar profesor**
+
+![](assets/le1.gif)
+
 ### AntenaPod
 
 Aplicación "AntenaPod": Apliación desarrollada para dispositivos con S.O. Andorid
@@ -81,6 +85,8 @@ AntennaPod is un gestor y reproductor de podcast que te da acceso instantáneo a
 **Automatización caso de uso "Add podcast" de AntennaPod usando Cabalash**
 
 ![](assets/antennapod1.gif)
+
+![](assets/ap2.png)
 
 **Ejecución de Random Testing sobre AntennaPod usando un monkey con eventos aleatorios**
 
