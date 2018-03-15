@@ -1,5 +1,8 @@
 # Estrategia de Pruebas Parcial 1
 
+DIEGO ALFONSO PRIETO TORRES
+ALFONSO DE JESÚS ARDILA RIOS
+
 ## Contexto
 
 ### Objetivo
@@ -7,7 +10,6 @@
 * Realizar Pruebas exploratorias sobre la aplicación movil AntenaPod para conocer cuales son sus principales funcionalidades.
 * Realizar Pruebas automatizadas funcionalidades rapidas del flujo completo "comentar profesor" para la aplicación Web de losestudiantes.com 
 * Encontrar "corner case" de la aplicación de AntennaPod, para lograrlo se va a realizar un proceso de Random testing.
-* 
 
 ### Presupuesto
 
@@ -26,7 +28,7 @@ Dentro de los tipos de pruebas que realizaremos dentro de este módulo se encuen
 * Funcional: Probando los casos de uso seleccionados.
 * Automatizadas: Se ejecutarán pruebas automatizadas sobre algunos casos de uso de las apliaciones.
     * Para la aplicación de Los Estudiantes se va a automatizar el caso de uso **commentar profesor** usando `Cypress`, el principal objetivo es validar que el formulario funciona de forma correcta evitando que un usuario comente si no ha completado toda la información.
-    * Para la aplicación de AntennaPod se realizara una prueba de RandomTesting.
+    * Para la aplicación de AntennaPod se realizara una prueba de RandomTesting usando un monkey testing de Android con ejecuciones aleatorias.
 
 **Nivel Aceptación**        
 
@@ -56,6 +58,18 @@ La aplicación esta desarrollada usando ReactJs y 3D.js y no tiene ninguna restr
 
 ![](assets/le1.png)
 
+**Exploración maual del caso de uso "comentar profesor" en Los Estudiantes**
+
+En este caso no deja comentar porque el mail no es verificado
+
+![](assets/le-manual.gif)
+
+En este caso si deja comentar porque el mail es valido.
+
+![](assets/le-manual2.gif)
+
+En ambos casos se puede notar los fallos del formulario cuando los slider de calificación están debajop de 1.5
+
 ### AntenaPod
 
 Aplicación "AntenaPod": Apliación desarrollada para dispositivos con S.O. Andorid
@@ -64,9 +78,13 @@ AntennaPod is un gestor y reproductor de podcast que te da acceso instantáneo a
 
 ![](assets/ap1.png)
 
+**Automatización caso de uso "Add podcast" de AntennaPod usando Cabalash**
 
 ![](assets/antennapod1.gif)
 
-![](assets/le-manual.gif)
+**Ejecución de Random Testing sobre AntennaPod usando un monkey con eventos aleatorios**
 
-![](assets/le-manual2.gif)
+![](assets/monkeytesting-AntenaPod.gif)
+
+
+
