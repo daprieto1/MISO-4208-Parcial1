@@ -1,6 +1,7 @@
 # Estrategia de Pruebas Parcial 1
 
 DIEGO ALFONSO PRIETO TORRES
+
 ALFONSO DE JESÚS ARDILA RIOS
 
 ## Contexto
