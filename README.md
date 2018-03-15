@@ -73,6 +73,8 @@ En ambos casos se puede notar los fallos del formulario cuando los slider de cal
 
 **Ejecución de pruebas automatizadas sobre Los Estudiantes para el caso de prueba comentar profesor**
 
+[Ruta del código de las pruebas](https://github.com/daprieto1/MISO-4208-Parcial1/tree/master/cypress/integration)
+
 ![](assets/le1.gif)
 
 ### AntenaPod
@@ -85,7 +87,7 @@ AntennaPod is un gestor y reproductor de podcast que te da acceso instantáneo a
 
 **Automatización caso de uso "Add podcast" de AntennaPod usando Cabalash**
 
- Ruta de código de la prueba https://github.com/daprieto1/MISO-4208-Parcial1/tree/master/features
+ [Ruta de código de la prueba](https://github.com/daprieto1/MISO-4208-Parcial1/tree/master/features)
 
 ![](assets/antennapod1.gif)
 
