@@ -34,3 +34,7 @@ Dentro de los tipos de pruebas que realizaremos dentro de este módulo se encuen
 ### Calendario e integración con desarrollo
 
 * , lo que significa que las pruebas se están realizando después del dearrollo, por tal motivo, implica que en esta iteración no se va integrar con desarrollo.
+
+![](assets/antennapod1.gif)
+
+![](assets/le1.gif)
