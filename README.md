@@ -37,4 +37,6 @@ Dentro de los tipos de pruebas que realizaremos dentro de este módulo se encuen
 
 ![](assets/antennapod1.gif)
 
-![](assets/le1.gif)
+![](assets/le-manual.gif)
+
+![](assets/le-manual2.gif)
