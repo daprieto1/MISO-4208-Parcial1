@@ -81,6 +81,8 @@ AntennaPod is un gestor y reproductor de podcast que te da acceso instantáneo a
 
 **Automatización caso de uso "Add podcast" de AntennaPod usando Cabalash**
 
+ Ruta de código de la prueba https://github.com/daprieto1/MISO-4208-Parcial1/tree/master/features
+
 ![](assets/antennapod1.gif)
 
 **Ejecución de Random Testing sobre AntennaPod usando un monkey con eventos aleatorios**
